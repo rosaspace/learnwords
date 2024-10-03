@@ -1,0 +1,857 @@
+[
+  {
+    "category": "Module1-1",
+    "conversations": [
+      {
+        "english": "blade",
+        "chinese": "刀刃",
+        "isliked": false
+      },
+      {
+        "english": "gray",
+        "chinese": "灰色",
+        "isliked": false
+      },
+      {
+        "english": "past",
+        "chinese": "过去",
+        "isliked": false
+      },
+      {
+        "english": "quake",
+        "chinese": "地震",
+        "isliked": false
+      },
+      {
+        "english": "magic",
+        "chinese": "魔法",
+        "isliked": false
+      },
+      {
+        "english": "delay",
+        "chinese": "延迟",
+        "isliked": false
+      },
+      {
+        "english": "amaze",
+        "chinese": "使惊奇",
+        "isliked": false
+      },
+      {
+        "english": "drain",
+        "chinese": "排水",
+        "isliked": false
+      },
+      {
+        "english": "maybe",
+        "chinese": "也许",
+        "isliked": false
+      },
+      {
+        "english": "break",
+        "chinese": "打破",
+        "isliked": false
+      },
+      {
+        "english": "sale",
+        "chinese": "销售",
+        "isliked": false
+      },
+      {
+        "english": "hang",
+        "chinese": "悬挂",
+        "isliked": false
+      },
+      {
+        "english": "stain",
+        "chinese": "污渍",
+        "isliked": false
+      },
+      {
+        "english": "glass",
+        "chinese": "玻璃",
+        "isliked": false
+      },
+      {
+        "english": "raft",
+        "chinese": "木筏",
+        "isliked": false
+      },
+      {
+        "english": "jail",
+        "chinese": "监狱",
+        "isliked": false
+      },
+      {
+        "english": "crayon",
+        "chinese": "蜡笔",
+        "isliked": false
+      },
+      {
+        "english": "fact",
+        "chinese": "事实",
+        "isliked": false
+      },
+      {
+        "english": "stale",
+        "chinese": "不新鲜的",
+        "isliked": false
+      },
+      {
+        "english": "steak",
+        "chinese": "牛排",
+        "isliked": false
+      },
+      {
+        "english": "ashamed",
+        "chinese": "羞愧的",
+        "isliked": false
+      },
+      {
+        "english": "remain",
+        "chinese": "保持",
+        "isliked": false
+      },
+      {
+        "english": "grasp",
+        "chinese": "抓住",
+        "isliked": false
+      },
+      {
+        "english": "exact",
+        "chinese": "精确的",
+        "isliked": false
+      }
+    ]
+  },
+  {
+    "category": "Module1-2",
+    "conversations": [
+      {
+        "english": "west",
+        "chinese": "西方",
+        "isliked": false
+      },
+      {
+        "english": "steep",
+        "chinese": "陡峭的",
+        "isliked": false
+      },
+      {
+        "english": "member",
+        "chinese": "成员",
+        "isliked": false
+      },
+      {
+        "english": "gleam",
+        "chinese": "闪烁",
+        "isliked": false
+      },
+      {
+        "english": "fresh",
+        "chinese": "新鲜的",
+        "isliked": false
+      },
+      {
+        "english": "freedom",
+        "chinese": "自由",
+        "isliked": false
+      },
+      {
+        "english": "speed",
+        "chinese": "速度",
+        "isliked": false
+      },
+      {
+        "english": "steam",
+        "chinese": "蒸汽",
+        "isliked": false
+      },
+      {
+        "english": "beast",
+        "chinese": "野兽",
+        "isliked": false
+      },
+      {
+        "english": "believe",
+        "chinese": "相信",
+        "isliked": false
+      },
+      {
+        "english": "speck",
+        "chinese": "斑点",
+        "isliked": false
+      },
+      {
+        "english": "kept",
+        "chinese": "保持",
+        "isliked": false
+      },
+      {
+        "english": "cheap",
+        "chinese": "便宜的",
+        "isliked": false
+      },
+      {
+        "english": "pretend",
+        "chinese": "假装",
+        "isliked": false
+      },
+      {
+        "english": "greed",
+        "chinese": "贪婪",
+        "isliked": false
+      },
+      {
+        "english": "shelf",
+        "chinese": "架子",
+        "isliked": false
+      },
+      {
+        "english": "least",
+        "chinese": "最少",
+        "isliked": false
+      },
+      {
+        "english": "eager",
+        "chinese": "渴望的",
+        "isliked": false
+      },
+      {
+        "english": "reason",
+        "chinese": "理由",
+        "isliked": false
+      },
+      {
+        "english": "chief",
+        "chinese": "首领",
+        "isliked": false
+      },
+      {
+        "english": "complete",
+        "chinese": "完成",
+        "isliked": false
+      },
+      {
+        "english": "sleeve",
+        "chinese": "袖子",
+        "isliked": false
+      },
+      {
+        "english": "engine",
+        "chinese": "引擎",
+        "isliked": false
+      },
+      {
+        "english": "defend",
+        "chinese": "防守",
+        "isliked": false
+      }
+    ]
+  },
+  {
+    "category": "Module1-3",
+    "conversations": [
+      {
+        "english": "skill",
+        "chinese": "技能",
+        "isliked": false
+      },
+      {
+        "english": "crime",
+        "chinese": "犯罪",
+        "isliked": false
+      },
+      {
+        "english": "grind",
+        "chinese": "磨碎",
+        "isliked": false
+      },
+      {
+        "english": "tonight",
+        "chinese": "今晚",
+        "isliked": false
+      },
+      {
+        "english": "brick",
+        "chinese": "砖块",
+        "isliked": false
+      },
+      {
+        "english": "fight",
+        "chinese": "战斗",
+        "isliked": false
+      },
+      {
+        "english": "live",
+        "chinese": "生活",
+        "isliked": false
+      },
+      {
+        "english": "chill",
+        "chinese": "寒冷",
+        "isliked": false
+      },
+      {
+        "english": "delight",
+        "chinese": "愉悦",
+        "isliked": false
+      },
+      {
+        "english": "build",
+        "chinese": "建造",
+        "isliked": false
+      },
+      {
+        "english": "ditch",
+        "chinese": "沟渠",
+        "isliked": false
+      },
+      {
+        "english": "decide",
+        "chinese": "决定",
+        "isliked": false
+      },
+      {
+        "english": "witness",
+        "chinese": "目击者",
+        "isliked": false
+      },
+      {
+        "english": "wind",
+        "chinese": "风",
+        "isliked": false
+      },
+      {
+        "english": "district",
+        "chinese": "地区",
+        "isliked": false
+      },
+      {
+        "english": "inch",
+        "chinese": "英寸",
+        "isliked": false
+      },
+      {
+        "english": "sigh",
+        "chinese": "叹息",
+        "isliked": false
+      },
+      {
+        "english": "fright",
+        "chinese": "惊吓",
+        "isliked": false
+      },
+      {
+        "english": "remind",
+        "chinese": "提醒",
+        "isliked": false
+      },
+      {
+        "english": "splice",
+        "chinese": "拼接",
+        "isliked": false
+      },
+      {
+        "english": "spinning",
+        "chinese": "旋转",
+        "isliked": false
+      },
+      {
+        "english": "ticket",
+        "chinese": "票",
+        "isliked": false
+      },
+      {
+        "english": "surprise",
+        "chinese": "惊喜",
+        "isliked": false
+      },
+      {
+        "english": "brighten",
+        "chinese": "使明亮",
+        "isliked": false
+      }
+    ]
+  },
+  {
+    "category": "Module2-1",
+    "conversations": [
+      {
+        "english": "block",
+        "chinese": "阻挡",
+        "isliked": false
+      },
+      {
+        "english": "shown",
+        "chinese": "展示",
+        "isliked": false
+      },
+      {
+        "english": "oatmeal",
+        "chinese": "燕麦片",
+        "isliked": false
+      },
+      {
+        "english": "wrote",
+        "chinese": "写",
+        "isliked": false
+      },
+      {
+        "english": "fellow",
+        "chinese": "同伴",
+        "isliked": false
+      },
+      {
+        "english": "scold",
+        "chinese": "责骂",
+        "isliked": false
+      },
+      {
+        "english": "coast",
+        "chinese": "海岸",
+        "isliked": false
+      },
+      {
+        "english": "odd",
+        "chinese": "奇怪的",
+        "isliked": false
+      },
+      {
+        "english": "locate",
+        "chinese": "定位",
+        "isliked": false
+      },
+      {
+        "english": "slope",
+        "chinese": "斜坡",
+        "isliked": false
+      },
+      {
+        "english": "throat",
+        "chinese": "喉咙",
+        "isliked": false
+      },
+      {
+        "english": "host",
+        "chinese": "主持人",
+        "isliked": false
+      },
+      {
+        "english": "online",
+        "chinese": "在线的",
+        "isliked": false
+      },
+      {
+        "english": "shock",
+        "chinese": "震惊",
+        "isliked": false
+      },
+      {
+        "english": "solve",
+        "chinese": "解决",
+        "isliked": false
+      },
+      {
+        "english": "known",
+        "chinese": "已知的",
+        "isliked": false
+      },
+      {
+        "english": "remote",
+        "chinese": "遥远的",
+        "isliked": false
+      },
+      {
+        "english": "stock",
+        "chinese": "股票",
+        "isliked": false
+      },
+      {
+        "english": "boast",
+        "chinese": "吹嘘",
+        "isliked": false
+      },
+      {
+        "english": "globe",
+        "chinese": "地球仪",
+        "isliked": false
+      },
+      {
+        "english": "borrow",
+        "chinese": "借",
+        "isliked": false
+      },
+      {
+        "english": "compose",
+        "chinese": "创作",
+        "isliked": false
+      },
+      {
+        "english": "rocket",
+        "chinese": "火箭",
+        "isliked": false
+      },
+      {
+        "english": "doctor",
+        "chinese": "医生",
+        "isliked": false
+      }
+    ]
+  },
+  {
+    "category": "美国州名和首府",
+    "conversations": [
+      {
+        "english": "Alabama",
+        "chinese": "阿拉巴马州",
+        "capital": "Montgomery",
+        "chinese_capital": "蒙哥马利",
+        "isliked": false
+      },
+      {
+        "english": "Alaska",
+        "chinese": "阿拉斯加州",
+        "capital": "Juneau",
+        "chinese_capital": "朱诺",
+        "isliked": false
+      },
+      {
+        "english": "Arizona",
+        "chinese": "亚利桑那州",
+        "capital": "Phoenix",
+        "chinese_capital": "凤凰城",
+        "isliked": false
+      },
+      {
+        "english": "Arkansas",
+        "chinese": "阿肯色州",
+        "capital": "Little Rock",
+        "chinese_capital": "小石城",
+        "isliked": false
+      },
+      {
+        "english": "California",
+        "chinese": "加利福尼亚州",
+        "capital": "Sacramento",
+        "chinese_capital": "萨克拉门托",
+        "isliked": false
+      },
+      {
+        "english": "Colorado",
+        "chinese": "科罗拉多州",
+        "capital": "Denver",
+        "chinese_capital": "丹佛",
+        "isliked": false
+      },
+      {
+        "english": "Connecticut",
+        "chinese": "康涅狄格州",
+        "capital": "Hartford",
+        "chinese_capital": "哈特福德",
+        "isliked": true
+      },
+      {
+        "english": "Delaware",
+        "chinese": "特拉华州",
+        "capital": "Dover",
+        "chinese_capital": "多佛",
+        "isliked": true
+      },
+      {
+        "english": "Florida",
+        "chinese": "佛罗里达州",
+        "capital": "Tallahassee",
+        "chinese_capital": "塔拉哈西",
+        "isliked": false
+      },
+      {
+        "english": "Georgia",
+        "chinese": "佐治亚州",
+        "capital": "Atlanta",
+        "chinese_capital": "亚特兰大",
+        "isliked": false
+      },
+      {
+        "english": "Hawaii",
+        "chinese": "夏威夷州",
+        "capital": "Honolulu",
+        "chinese_capital": "檀香山",
+        "isliked": false
+      },
+      {
+        "english": "Idaho",
+        "chinese": "爱达荷州",
+        "capital": "Boise",
+        "chinese_capital": "博伊西",
+        "isliked": false
+      },
+      {
+        "english": "Illinois",
+        "chinese": "伊利诺伊州",
+        "capital": "Springfield",
+        "chinese_capital": "斯普林菲尔德",
+        "isliked": false
+      },
+      {
+        "english": "Indiana",
+        "chinese": "印第安纳州",
+        "capital": "Indianapolis",
+        "chinese_capital": "印第安纳波利斯",
+        "isliked": false
+      },
+      {
+        "english": "Iowa",
+        "chinese": "艾奥瓦州",
+        "capital": "Des Moines",
+        "chinese_capital": "得梅因",
+        "isliked": false
+      },
+      {
+        "english": "Kansas",
+        "chinese": "堪萨斯州",
+        "capital": "Topeka",
+        "chinese_capital": "托皮卡",
+        "isliked": false
+      },
+      {
+        "english": "Kentucky",
+        "chinese": "肯塔基州",
+        "capital": "Frankfort",
+        "chinese_capital": "法兰克福",
+        "isliked": false
+      },
+      {
+        "english": "Louisiana",
+        "chinese": "路易斯安那州",
+        "capital": "Baton Rouge",
+        "chinese_capital": "巴吞鲁日",
+        "isliked": false
+      },
+      {
+        "english": "Maine",
+        "chinese": "缅因州",
+        "capital": "Augusta",
+        "chinese_capital": "奥古斯塔",
+        "isliked": true
+      },
+      {
+        "english": "Maryland",
+        "chinese": "马里兰州",
+        "capital": "Annapolis",
+        "chinese_capital": "安纳波利斯",
+        "isliked": true
+      },
+      {
+        "english": "Massachusetts",
+        "chinese": "马萨诸塞州",
+        "capital": "Boston",
+        "chinese_capital": "波士顿",
+        "isliked": true
+      },
+      {
+        "english": "Michigan",
+        "chinese": "密歇根州",
+        "capital": "Lansing",
+        "chinese_capital": "兰辛",
+        "isliked": false
+      },
+      {
+        "english": "Minnesota",
+        "chinese": "明尼苏达州",
+        "capital": "St. Paul",
+        "chinese_capital": "圣保罗",
+        "isliked": false
+      },
+      {
+        "english": "Mississippi",
+        "chinese": "密西西比州",
+        "capital": "Jackson",
+        "chinese_capital": "杰克逊",
+        "isliked": false
+      },
+      {
+        "english": "Missouri",
+        "chinese": "密苏里州",
+        "capital": "Jefferson City",
+        "chinese_capital": "杰斐逊市",
+        "isliked": false
+      },
+      {
+        "english": "Montana",
+        "chinese": "蒙大拿州",
+        "capital": "Helena",
+        "chinese_capital": "海伦娜",
+        "isliked": false
+      },
+      {
+        "english": "Nebraska",
+        "chinese": "内布拉斯加州",
+        "capital": "Lincoln",
+        "chinese_capital": "林肯",
+        "isliked": false
+      },
+      {
+        "english": "Nevada",
+        "chinese": "内华达州",
+        "capital": "Carson City",
+        "chinese_capital": "卡森市",
+        "isliked": false
+      },
+      {
+        "english": "New Hampshire",
+        "chinese": "新罕布什尔州",
+        "capital": "Concord",
+        "chinese_capital": "康科德",
+        "isliked": true
+      },
+      {
+        "english": "New Jersey",
+        "chinese": "新泽西州",
+        "capital": "Trenton",
+        "chinese_capital": "特伦顿",
+        "isliked": true
+      },
+      {
+        "english": "New Mexico",
+        "chinese": "新墨西哥州",
+        "capital": "Santa Fe",
+        "chinese_capital": "圣菲",
+        "isliked": false
+      },
+      {
+        "english": "New York",
+        "chinese": "纽约州",
+        "capital": "Albany",
+        "chinese_capital": "奥尔巴尼",
+        "isliked": true
+      },
+      {
+        "english": "North Carolina",
+        "chinese": "北卡罗来纳州",
+        "capital": "Raleigh",
+        "chinese_capital": "罗利",
+        "isliked": false
+      },
+      {
+        "english": "North Dakota",
+        "chinese": "北达科他州",
+        "capital": "Bismarck",
+        "chinese_capital": "俾斯麦",
+        "isliked": false
+      },
+      {
+        "english": "Ohio",
+        "chinese": "俄亥俄州",
+        "capital": "Columbus",
+        "chinese_capital": "哥伦布",
+        "isliked": false
+      },
+      {
+        "english": "Oklahoma",
+        "chinese": "俄克拉荷马州",
+        "capital": "Oklahoma City",
+        "chinese_capital": "俄克拉荷马市",
+        "isliked": false
+      },
+      {
+        "english": "Oregon",
+        "chinese": "俄勒冈州",
+        "capital": "Salem",
+        "chinese_capital": "塞勒姆",
+        "isliked": false
+      },
+      {
+        "english": "Pennsylvania",
+        "chinese": "宾夕法尼亚州",
+        "capital": "Harrisburg",
+        "chinese_capital": "哈里斯堡",
+        "isliked": true
+      },
+      {
+        "english": "Rhode Island",
+        "chinese": "罗德岛州",
+        "capital": "Providence",
+        "chinese_capital": "普罗维登斯",
+        "isliked": true
+      },
+      {
+        "english": "South Carolina",
+        "chinese": "南卡罗来纳州",
+        "capital": "Columbia",
+        "chinese_capital": "哥伦比亚",
+        "isliked": false
+      },
+      {
+        "english": "South Dakota",
+        "chinese": "南达科他州",
+        "capital": "Pierre",
+        "chinese_capital": "皮尔",
+        "isliked": false
+      },
+      {
+        "english": "Tennessee",
+        "chinese": "田纳西州",
+        "capital": "Nashville",
+        "chinese_capital": "纳什维尔",
+        "isliked": false
+      },
+      {
+        "english": "Texas",
+        "chinese": "得克萨斯州",
+        "capital": "Austin",
+        "chinese_capital": "奥斯汀",
+        "isliked": false
+      },
+      {
+        "english": "Utah",
+        "chinese": "犹他州",
+        "capital": "Salt Lake City",
+        "chinese_capital": "盐湖城",
+        "isliked": false
+      },
+      {
+        "english": "Vermont",
+        "chinese": "佛蒙特州",
+        "capital": "Montpelier",
+        "chinese_capital": "蒙彼利埃",
+        "isliked": true
+      },
+      {
+        "english": "Virginia",
+        "chinese": "弗吉尼亚州",
+        "capital": "Richmond",
+        "chinese_capital": "里士满",
+        "isliked": false
+      },
+      {
+        "english": "Washington",
+        "chinese": "华盛顿州",
+        "capital": "Olympia",
+        "chinese_capital": "奥林匹亚",
+        "isliked": false
+      },
+      {
+        "english": "West Virginia",
+        "chinese": "西弗吉尼亚州",
+        "capital": "Charleston",
+        "chinese_capital": "查尔斯顿",
+        "isliked": false
+      },
+      {
+        "english": "Wisconsin",
+        "chinese": "威斯康星州",
+        "capital": "Madison",
+        "chinese_capital": "麦迪逊",
+        "isliked": false
+      },
+      {
+        "english": "Wyoming",
+        "chinese": "怀俄明州",
+        "capital": "Cheyenne",
+        "chinese_capital": "夏延",
+        "isliked": false
+      }
+    ]
+  }
+]

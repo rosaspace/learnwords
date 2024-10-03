@@ -1,43 +1,194 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习单词</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .tab {
+            padding: 10px 20px;
+            cursor: pointer;
+            background-color: #ddd;
+            border: none;
+            outline: none;
+        }
+        .tab.active {
+            background-color: #4CAF50;
+            color: white;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .trumpet {
+            cursor: pointer;
+            font-size: 20px;
+            margin-right: 5px;
+        }
+        .like-button {
+            cursor: pointer;
+            font-size: 20px;
+        }
+        .item-count {
+            text-align: center;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="root"> -->
+        <div class="container">
+            <h1>学习单词</h1>
+            <div id="tabs" class="tabs"></div>
+            <div id="itemCount" class="item-count"></div>
+            <table id="wordTable"></table>
+        </div>
+    <!-- </div> -->
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <script>
+        let data = [];
+        let likedItems = new Set();
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+        async function loadData() {
+            try {
+                const response = await fetch('initial_data.json');
+                data = await response.json();
+                data.forEach((category, categoryIndex) => {
+                    category.conversations.forEach((item, itemIndex) => {
+                        if (item.isliked) {
+                            likedItems.add(`${categoryIndex}-${itemIndex}`);
+                        }
+                    });
+                });
+                createTabs();
+                showCategory(0);
+            } catch (error) {
+                console.error('加载数据出错:', error);
+            }
+        }
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
-  </body>
+        function createTabs() {
+            const tabsContainer = document.getElementById('tabs');
+            data.forEach((category, index) => {
+                const tab = document.createElement('button');
+                tab.className = 'tab';
+                tab.textContent = category.category;
+                tab.onclick = () => showCategory(index);
+                tabsContainer.appendChild(tab);
+            });
+        }
+
+        function showCategory(index) {
+            const tabs = document.querySelectorAll('.tab');
+            tabs.forEach((tab, i) => {
+                tab.className = i === index ? 'tab active' : 'tab';
+            });
+
+            const wordTable = document.getElementById('wordTable');
+            wordTable.innerHTML = '';
+
+            const category = data[index];
+            const isStateCapital = category.category === "美国州名和首府";
+
+            const itemCount = category.conversations.length;
+            document.getElementById('itemCount').textContent = `当前类别共有 ${itemCount} 个项目`;
+
+            let tableHTML = `
+                <tr>
+                    <th>收藏</th>
+                    <th>英语</th>
+                    <th>中文</th>
+                    ${isStateCapital ? '<th>首府</th><th>首府中文</th>' : ''}
+                </tr>
+            `;
+
+            category.conversations.forEach((item, itemIndex) => {
+                const itemKey = `${index}-${itemIndex}`;
+                const isLiked = likedItems.has(itemKey);
+                tableHTML += `
+                    <tr>
+                        <td>
+                            <span class="like-button" onclick="toggleLike(${index}, ${itemIndex})">
+                                ${isLiked ? '❤️' : '🤍'}
+                            </span>
+                        </td>
+                        <td>
+                            <span class="trumpet" onclick="speak('${item.english}', 'en')">🔊</span>
+                            ${item.english}
+                        </td>
+                        <td>
+                            <span class="trumpet" onclick="speak('${item.chinese}', 'zh')">🔊</span>
+                            ${item.chinese}
+                        </td>
+                        ${isStateCapital ? `
+                            <td>
+                                <span class="trumpet" onclick="speak('${item.capital}', 'en')">🔊</span>
+                                ${item.capital}
+                            </td>
+                            <td>
+                                <span class="trumpet" onclick="speak('${item.chinese_capital}', 'zh')">🔊</span>
+                                ${item.chinese_capital}
+                            </td>
+                        ` : ''}
+                    </tr>
+                `;
+            });
+
+            wordTable.innerHTML = tableHTML;
+        }
+
+        function speak(text, lang) {
+            const utterance = new SpeechSynthesisUtterance(text);
+            utterance.lang = lang;
+            speechSynthesis.speak(utterance);
+        }
+
+        function toggleLike(categoryIndex, itemIndex) {
+            const itemKey = `${categoryIndex}-${itemIndex}`;
+            if (likedItems.has(itemKey)) {
+                likedItems.delete(itemKey);
+                data[categoryIndex].conversations[itemIndex].isliked = false;
+            } else {
+                likedItems.add(itemKey);
+                data[categoryIndex].conversations[itemIndex].isliked = true;
+            }
+            showCategory(categoryIndex);
+        }
+
+        document.addEventListener('DOMContentLoaded', loadData);
+    </script>
+</body>
 </html>

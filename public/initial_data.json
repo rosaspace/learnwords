@@ -1,6 +1,6 @@
 [
   {
-    "category": "Module1-1",
+    "category": "Mod1-1",
     "conversations": [
       {
         "english": "blade",
@@ -125,7 +125,7 @@
     ]
   },
   {
-    "category": "Module1-2",
+    "category": "Mod1-2",
     "conversations": [
       {
         "english": "west",
@@ -250,7 +250,7 @@
     ]
   },
   {
-    "category": "Module1-3",
+    "category": "Mod1-3",
     "conversations": [
       {
         "english": "skill",
@@ -375,7 +375,7 @@
     ]
   },
   {
-    "category": "Module2-1",
+    "category": "Mod2-1",
     "conversations": [
       {
         "english": "block",
@@ -500,7 +500,132 @@
     ]
   },
   {
-    "category": "美国州名和首府",
+    "category": "Mod2-2",
+    "conversations": [
+      {
+        "english": "wait",
+        "chinese": "等待",
+        "isliked": false
+      },
+      {
+        "english": "weight",
+        "chinese": "重量",
+        "isliked": false
+      },
+      {
+        "english": "sent",
+        "chinese": "发送",
+        "isliked": false
+      },
+      {
+        "english": "cent",
+        "chinese": "分（货币单位）",
+        "isliked": false
+      },
+      {
+        "english": "scent",
+        "chinese": "气味",
+        "isliked": false
+      },
+      {
+        "english": "heard",
+        "chinese": "听到",
+        "isliked": false
+      },
+      {
+        "english": "herd",
+        "chinese": "兽群",
+        "isliked": false
+      },
+      {
+        "english": "days",
+        "chinese": "天数",
+        "isliked": false
+      },
+      {
+        "english": "daze",
+        "chinese": "使茫然",
+        "isliked": false
+      },
+      {
+        "english": "heal",
+        "chinese": "治愈",
+        "isliked": false
+      },
+      {
+        "english": "heel",
+        "chinese": "脚跟",
+        "isliked": false
+      },
+      {
+        "english": "peak",
+        "chinese": "峰值",
+        "isliked": false
+      },
+      {
+        "english": "peek",
+        "chinese": "偷看",
+        "isliked": false
+      },
+      {
+        "english": "feet",
+        "chinese": "脚",
+        "isliked": false
+      },
+      {
+        "english": "feat",
+        "chinese": "壮举",
+        "isliked": false
+      },
+      {
+        "english": "vain",
+        "chinese": "徒劳的",
+        "isliked": false
+      },
+      {
+        "english": "vane",
+        "chinese": "风向标",
+        "isliked": false
+      },
+      {
+        "english": "vein",
+        "chinese": "静脉",
+        "isliked": false
+      },
+      {
+        "english": "miner",
+        "chinese": "矿工",
+        "isliked": false
+      },
+      {
+        "english": "minor",
+        "chinese": "未成年人",
+        "isliked": false
+      },
+      {
+        "english": "allowed",
+        "chinese": "允许的",
+        "isliked": false
+      },
+      {
+        "english": "aloud",
+        "chinese": "大声地",
+        "isliked": false
+      },
+      {
+        "english": "who's",
+        "chinese": "谁是",
+        "isliked": false
+      },
+      {
+        "english": "whose",
+        "chinese": "谁的",
+        "isliked": false
+      }
+    ]
+  },
+  {
+    "category": "States",
     "conversations": [
       {
         "english": "Alabama",

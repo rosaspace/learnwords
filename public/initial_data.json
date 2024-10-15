@@ -500,6 +500,131 @@
     ]
   },
   {
+    "category": "Mod2-3",
+    "conversations": [
+      {
+        "english": "bunch",
+        "chinese": "一束",
+        "isliked": false
+      },
+      {
+        "english": "fruit",
+        "chinese": "水果",
+        "isliked": false
+      },
+      {
+        "english": "argue",
+        "chinese": "争论",
+        "isliked": false
+      },
+      {
+        "english": "crumb",
+        "chinese": "碎屑",
+        "isliked": false
+      },
+      {
+        "english": "crew",
+        "chinese": "船员",
+        "isliked": false
+      },
+      {
+        "english": "tune",
+        "chinese": "调音",
+        "isliked": false
+      },
+      {
+        "english": "juice",
+        "chinese": "果汁",
+        "isliked": false
+      },
+      {
+        "english": "refuse",
+        "chinese": "拒绝",
+        "isliked": false
+      },
+      {
+        "english": "truth",
+        "chinese": "真理",
+        "isliked": false
+      },
+      {
+        "english": "young",
+        "chinese": "年轻的",
+        "isliked": false
+      },
+      {
+        "english": "clue",
+        "chinese": "线索",
+        "isliked": false
+      },
+      {
+        "english": "trunk",
+        "chinese": "树干",
+        "isliked": false
+      },
+      {
+        "english": "amuse",
+        "chinese": "娱乐",
+        "isliked": false
+      },
+      {
+        "english": "suit",
+        "chinese": "套装",
+        "isliked": false
+      },
+      {
+        "english": "rude",
+        "chinese": "粗鲁的",
+        "isliked": false
+      },
+      {
+        "english": "trust",
+        "chinese": "信任",
+        "isliked": false
+      },
+      {
+        "english": "dew",
+        "chinese": "露水",
+        "isliked": false
+      },
+      {
+        "english": "stuck",
+        "chinese": "卡住",
+        "isliked": false
+      },
+      {
+        "english": "rescue",
+        "chinese": "救援",
+        "isliked": false
+      },
+      {
+        "english": "brush",
+        "chinese": "刷子",
+        "isliked": false
+      },
+      {
+        "english": "undercover",
+        "chinese": "秘密的",
+        "isliked": false
+      },
+      {
+        "english": "bruise",
+        "chinese": "瘀伤",
+        "isliked": false
+      },
+      {
+        "english": "accuse",
+        "chinese": "控诉",
+        "isliked": false
+      },
+      {
+        "english": "stew",
+        "chinese": "炖",
+        "isliked": false
+      }
+    ]
+  },
+  {
     "category": "Mod2-2",
     "conversations": [
       {
